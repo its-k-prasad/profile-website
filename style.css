@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.sidebar{
+    /* position: absolute; */
+   background-color: rgb(161, 148, 148);
+    /* width: 20vw; */
+    height: 100vh;
+    font-family: 'Fira Sans', sans-serif;
+    transition:transform 0.3s ease-in ;
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(73, 51, 51);
+   
+}
+
+
+
+.main{
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+}
+
+.infoContainer{
+   
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.devInfo{
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     font-family: "Source Code Pro", monospace;
+}
+
+.devInfo h2{
+   
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+.hello{
+    font-size: 65px;
+   
+  }
+
+.name{
+    font-size: 50px;
+    font-weight: Bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.edu{
+    font-size: 22px;
+    
+}
+
+.about{
+    font-size: 40px;
+}
+
+.moreabout{
+    font-size: 22px;
+    margin-top: 23px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.buttons{
+     margin-top: 32px;
+   
+
+}
+
+.buttons button {
+        padding: 9px 14px;
+        border-radius: 22px;
+        color: white;
+        background-color: dodgerblue;
+        font-weight: bold;
+        font-size: 21px;
+        margin: 0 3px;
+        cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color: white;
+    color: dodgerblue;
+
+}
+
+.devPic img{
+   height: 58vh;
+   
+}
+
+.contactform{
+    padding: 0 34px;
+    /* padding-top: 144px; */
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.contactfor h1{
+    font-family: "Source Code Pro", monospace;
+    text-align: center;
+    /* padding: 12px 0; */
+}
+
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+   /* width: 26vw; */
+   border-radius: 5px;
+   margin: 6px 0;
+   padding: 3px;
+}
+
+.contactform form {
+
+    margin: 0 40px;
+ }
+
+
+#emailHelp{
+    font-size: 13px;
+    color : midnightblue;
+    margin: 0 5px;
+}
+
+#form-check{
+    flex-direction: row;
+    margin: -14px
+
+}
+
+#form-check-input{
+width: 24px;
+margin: 3px 0;
+}
+
+.blogItem {
+    margin: 3px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+.blogContainer h1{
+    font-family: 'Fira Sans', sans-serif;
+     margin: 23px;
+}
+
+.blogItem p{
+    font-family: "Source Code Pro", monospace;
+}
+
+.intro h2{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 14px 19px;
+}
+
+.intro p{
+
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0 12px ;
+}
+
+
+
+.skillContainer{
+   padding: 12px;
+   border: 2px solid black;
+   font-family: "Source Code Pro", monospace;
+ 
+}
+
+
+.skill{
+    width: 23px;
+    height: 23px;
+    border: 2px solid black;
+    background-color: red;
+}
+
+
+#C{
+    width: 20vw;
+    height: 2vh;
+}
+ 
+
+#CJ{
+    width: 16vw;
+    height: 2vh;
+}
+
+#HTML{
+    width: 18vw;
+    height: 2vh;
+}
+
+#CSS{
+    width: 16vw;
+    height: 2vh;
+}
+
+#JS{
+    width: 16vw;
+    height: 2vh;
+}
+
+#NJ{
+    width: 14vw;
+    height: 2vh;
+}
+
+@media (max-width: 1615px){ 
+  *{
+    /* background-color: rgb(194, 107, 107); */
+   } 
+   /* .sidebar{
+    transform: translate((-250px, 0px));
+    position: absolute;  */
+}
+
+.sidebargo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.hamburger{
+position: absolute;
+top: 10px;
+left: 10px;
+}
+
+.hm{
+    width: 23px;
+    cursor:pointer;
+}
+
+.cro{
+    margin-left: 160px;
+    width: 23px;
+    cursor:pointer;
+}
+           
+.intro, .blogContainer, .contactform{
+    margin: 50px 8px;
+}
